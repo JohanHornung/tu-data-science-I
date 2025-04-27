@@ -1,0 +1,37 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+.env/
+*.env
+
+# Ignore data files (optional, if they are large or private)
+*.csv
+*.tsv
+*.dat
+*.h5
+*.sqlite
+*.db
+
+# Ignore notebook execution output (if saved separately)
+*.nbconvert.ipynb
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
+
+# Ignore other common environment folders
+.mypy_cache/
+.pytest_cache/
